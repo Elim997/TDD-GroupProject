@@ -1,0 +1,21 @@
+def bmi(weight,height):
+    bmi = (weight/(height**2))
+    return bmi
+
+#print("Your BMI is: {0} and you are: ".format(bmi), end='')
+
+#conditions
+#if ( bmi < 16):
+#   print("severely underweight")
+
+#elif ( bmi >= 16 and bmi < 18.5):
+#   print("underweight")
+
+#elif ( bmi >= 18.5 and bmi < 25):
+#   print("Healthy")
+
+#elif ( bmi >= 25 and bmi < 30):
+#   print("overweight")
+
+#elif ( bmi >=30):
+#   print("severely overweight")
